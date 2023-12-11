@@ -12,6 +12,7 @@
         <x-home.best-offer />
         <x-home.hot />
         <x-home.best-seller />
+        <x-home.feedback />
     </div>
 @endsection
 @section('footer')
