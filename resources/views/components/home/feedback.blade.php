@@ -1,6 +1,6 @@
-<section id="feedBack" class="tw-min-h-[830px] tw-bg-cover tw-bg-center"
+<section id="feedBack" class="tw-h-[830px] tw-bg-cover tw-bg-center"
     style="background-image: url('../assets/feedback-bg.png');">
-    <div class="tw-container tw-mx-auto tw-flex tw-flex-col tw-py-100px">
+    <div class="tw-container tw-mx-auto tw-flex tw-h-full tw-flex-col tw-gap-50px tw-pb-50px tw-pt-100px">
         <div>
             <p class="tw-flex tw-items-center tw-justify-center tw-gap-7px">
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,16 +18,53 @@
                         </clipPath>
                     </defs>
                 </svg>
-                <span class="tw-leading-28px tw-text-xl tw-font-medium tw-uppercase tw-text-white">OUR CUSTOMERS
+                <span class="tw-text-xl tw-font-medium tw-uppercase tw-leading-28px tw-text-white">OUR CUSTOMERS
                     FEEDBACKS</span>
             </p>
             <p
-                class="tw-leading-52px tw-mt-4px tw-text-center tw-text-48px tw-font-semibold tw-capitalize tw-text-white">
+                class="tw-mt-4px tw-text-center tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px tw-text-white">
                 Beauty's Best Kept Secret
             </p>
         </div>
         <div class="tw-flex-1">
-
+            <div class="swiper feedbackSwiper tw-h-full">
+                <div class="swiper-wrapper">
+                    @for ($i = 0; $i < 10; $i++)
+                        <div class="swiper-slide">
+                            <img class="tw-mx-auto tw-h-125px tw-w-125px tw-object-cover"
+                                src="{{ asset('assets/avatar.png') }}" alt="">
+                            <div
+                                class="-tw-mt-62px tw-rounded-[15px] tw-bg-white tw-px-38px tw-pb-30px tw-pt-80px tw-text-center">
+                                <p class="tw-uppercaset tw-text-20px tw-font-semibold tw-leading-24px">Jame.st</p>
+                                <p class="tw-mt-4px tw-text-base tw-font-normal tw-capitalize tw-leading-24px">freelance
+                                    model</p>
+                                <div class="tw-flex tw-items-center"></div>
+                                <p class="tw-mt-19px tw-text-base tw-leading-24px tw-text-gray3">Lorem ipsum dolor sit
+                                    amet, consectetuer adipiscing
+                                    elit, sed diam
+                                    nonummy nibh
+                                    euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
+                                    minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                                    aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+                                    vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
+                                    at vero eros et accumsan</p>
+                            </div>
+                        </div>
+                    @endfor
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
     </div>
 </section>
+@pushonce('module-script')
+    <script>
+        var swiper = new Swiper(".feedbackSwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+@endpushonce
