@@ -39,7 +39,7 @@
                             data-accordion-target="#question-collapse-body-{{$i}}" aria-expanded="true"
                             aria-controls="question-collapse-body-{{$i}}">
                             <span>What is Flowbite?</span>
-                            <svg data-accordion-icon class="tw-w-32px tw-ml-auto tw-h-32px tw-rotate-180 tw-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
+                            <svg data-accordion-icon class="tw-w-32px tw-ml-auto tw-h-32px tw-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
                                 <rect x="0.5" y="32" width="32" height="32" rx="16" transform="rotate(-90 0.5 32)" fill="#80B4FF"/>
                                 <rect x="0.5" y="32" width="32" height="32" rx="16" transform="rotate(-90 0.5 32)" fill="black" fill-opacity="0.35"/>
                                 <path d="M11.1667 13.3337L16.5001 18.667L21.8334 13.3337" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

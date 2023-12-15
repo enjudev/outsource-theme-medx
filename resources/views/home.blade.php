@@ -15,6 +15,9 @@
         <x-home.best-seller />
         <x-home.feedback />
         <x-home.question />
+        <x-home.guarantee />
+        <x-home.contact />
+        <x-home.new />
     </div>
 @endsection
 @section('footer')
