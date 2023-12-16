@@ -2,7 +2,7 @@
     <div class="swiper bannerSwiper tw-h-[400px] lg:tw-h-[1022px]">
         <div class="swiper-wrapper">
             @for ($i = 0; $i < 3; $i++)
-                <div class="swiper-slide tw-flex tw-items-center"
+                <div class="swiper-slide !tw-flex tw-items-center"
                     style="background-image: url({{ asset('assets/slider1.png') }});">
                     <div class="tw-container tw-mx-auto tw-text-end">
                         <div class="tw-ml-auto tw-text-center lg:tw-w-1/2">
