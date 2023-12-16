@@ -1,6 +1,7 @@
 <section id="feedBack" class="tw-h-[830px] tw-bg-cover tw-bg-center"
     style="background-image: url('../assets/feedback-bg.png');">
-    <div class="tw-container tw-mx-auto tw-flex tw-h-full tw-flex-col tw-gap-50px tw-pb-50px tw-pt-100px">
+    <div
+        class="tw-container tw-mx-auto tw-flex tw-h-full tw-flex-col tw-gap-50px tw-px-15px tw-pb-50px tw-pt-100px lg:tw-px-0">
         <div>
             <p class="tw-flex tw-items-center tw-justify-center tw-gap-7px">
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -65,6 +66,23 @@
             pagination: {
                 el: ".swiper-pagination",
             },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            }
         });
     </script>
 @endpushonce

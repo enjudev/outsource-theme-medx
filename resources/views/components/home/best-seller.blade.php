@@ -1,9 +1,11 @@
-<section id="best-seller" class="tw-my-100px tw-bg-cover tw-bg-center tw-bg-no-repeat tw-py-20px lg:tw-min-h-[550px]"
+<section id="best-seller"
+    class="tw-my-100px tw-flex tw-h-[300px] tw-items-center tw-bg-cover tw-bg-center tw-bg-no-repeat tw-py-20px lg:tw-h-[550px]"
     style="background-image: url({{ asset('assets/best-seller-bg.png') }})">
-    <div class="tw-container tw-mx-auto tw-flex tw-items-center">
-        <div class="tw-flex tw-w-1/2 tw-flex-col tw-gap-20px">
-            <p class="tw-text-34px tw-font-normal tw-text-white">STARTING WITH <strong>19$</strong></p>
-            <p class="tw-text-60px tw-font-semibold tw-leading-[68px] tw-text-white">Help you feel better
+    <div class="tw-container tw-mx-auto tw-flex tw-items-center tw-px-15px lg:tw-px-0">
+        <div class="tw-flex tw-w-full tw-flex-col tw-gap-20px lg:tw-w-1/2">
+            <p class="tw-text-25px tw-font-normal tw-text-white lg:tw-text-34px">STARTING WITH <strong>19$</strong></p>
+            <p class="tw-text-18px tw-font-semibold tw-text-white lg:tw-text-60px lg:tw-leading-[68px]">Help you feel
+                better
                 in study and work</p>
             <div>
                 <p
@@ -11,11 +13,11 @@
                     SHOP NOW</p>
             </div>
         </div>
-        <img class="tw-ml-auto" src="{{ asset('assets/best-seller-item.png') }}" alt="">
+        <img class="tw-ml-auto tw-hidden lg:tw-block" src="{{ asset('assets/best-seller-item.png') }}" alt="">
     </div>
 </section>
 <section id="best-seller-product" class="tw-my-100px">
-    <div class="tw-container tw-mx-auto">
+    <div class="tw-container tw-mx-auto tw-px-15px lg:tw-px-0">
         <p class="tw-flex tw-items-center tw-gap-7px">
             <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_8_937)">
@@ -32,11 +34,11 @@
                     </clipPath>
                 </defs>
             </svg>
-            <span class="tw-leading-28px tw-text-xl tw-font-medium tw-uppercase tw-text-blue1">Our products</span>
+            <span class="tw-text-xl tw-font-medium tw-uppercase tw-leading-28px tw-text-blue1">Our products</span>
         </p>
         <div class="tw-flex tw-items-center tw-gap-8px">
             <p
-                class="tw-leading-52px tw-mt-4px tw-text-center tw-text-48px tw-font-semibold tw-capitalize tw-text-gray2">
+                class="tw-mt-4px tw-text-center tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px tw-text-gray2">
                 Best Sellers
             </p>
             <p class="tw-h-1px tw-flex-1 tw-bg-gray4"></p>
@@ -73,7 +75,7 @@
             <div class="swiper-wrapper">
                 @for ($i = 0; $i < 10; $i++)
                     <div class="swiper-slide">
-                        <img class="tw-bg-gray5 tw-rounded-10px tw-w-full tw-object-contain"
+                        <img class="tw-bg-gray5 tw-w-full tw-rounded-10px tw-object-contain"
                             src="{{ asset('assets/product-category1.png') }}" alt="" />
                         <div class="tw-mt-20px tw-flex tw-items-center tw-justify-center tw-gap-4px">
 
@@ -83,8 +85,8 @@
                             Transparent
                         </p>
                         <div class="tw-mt-4px tw-flex tw-items-center tw-justify-center tw-gap-4px">
-                            <p class="tw-leading-24px tw-text-xl tw-font-semibold tw-text-blue1">$24.00</p>
-                            <p class="tw-leading-24px tw-text-base tw-text-gray3 tw-line-through">$37.99</p>
+                            <p class="tw-text-xl tw-font-semibold tw-leading-24px tw-text-blue1">$24.00</p>
+                            <p class="tw-text-base tw-leading-24px tw-text-gray3 tw-line-through">$37.99</p>
                         </div>
                     </div>
                 @endfor
@@ -101,6 +103,23 @@
                 nextEl: ".best-seller-item-next",
                 prevEl: ".best-seller-item-prev",
             },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 30
+                }
+            }
         });
     </script>
 @endpushonce

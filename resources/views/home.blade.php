@@ -18,9 +18,11 @@
         <x-home.guarantee />
         <x-home.contact />
         <x-home.new />
+        <x-home.exp />
     </div>
 @endsection
 @section('footer')
+    <x-footer />
 @endsection
 @section('script')
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

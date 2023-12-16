@@ -1,5 +1,6 @@
 <section id="guarantee" class="tw-bg-blue1 tw-py-50px">
-    <div class="gap-77px tw-container tw-mx-auto tw-grid tw-grid-cols-6 tw-gap-77px">
+    <div
+        class="gap-77px tw-container tw-mx-auto tw-grid tw-grid-cols-2 tw-gap-77px tw-px-15px lg:tw-grid-cols-6 lg:tw-px-0">
         @for ($i = 0; $i < 6; $i++)
             <div class="tw-text-center">
                 <img class="tw-mx-auto" src="{{ asset('assets/guard-icon.svg') }}" alt="">

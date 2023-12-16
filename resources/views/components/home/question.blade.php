@@ -1,7 +1,8 @@
 <section class="tw-flex tw-h-[825px] tw-items-center tw-bg-auto tw-bg-no-repeat"
     style="background-image: url({{ asset('assets/question-bg.png') }})">
-    <div class="tw-container tw-mx-auto tw-flex tw-h-[625px] tw-items-center tw-justify-center tw-gap-60px">
-        <div class="tw-h-full tw-w-[613px] tw-bg-red-100"></div>
+    <div
+        class="tw-container tw-mx-auto tw-flex tw-items-center tw-justify-center tw-gap-60px tw-px-15px lg:tw-h-[625px] lg:tw-px-0">
+        <div class="tw-hidden tw-h-full tw-w-[613px] lg:tw-block"></div>
         <div class="tw-h-full tw-flex-1">
             <div>
                 <p class="tw-flex tw-items-center tw-justify-start tw-gap-7px">
@@ -30,28 +31,41 @@
                 </p>
             </div>
 
-            <div id="question-collapse" class="tw-flex tw-flex-col tw-gap-30px tw-mt-50px" data-accordion="collapse">
-                @for($i = 0 ; $i < 4; $i++)
-                <div class="tw-rounded-[5px] tw-overflow-hidden">
-                    <h2 id="question-collapse-heading-{{$i}}">
-                        <button type="button"
-                            class="tw-p-20px tw-bg-blue1 tw-text-gray2 tw-flex tw-items-center tw-w-full"
-                            data-accordion-target="#question-collapse-body-{{$i}}" aria-expanded="true"
-                            aria-controls="question-collapse-body-{{$i}}">
-                            <span>What is Flowbite?</span>
-                            <svg data-accordion-icon class="tw-w-32px tw-ml-auto tw-h-32px tw-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="33" height="32" viewBox="0 0 33 32" fill="none">
-                                <rect x="0.5" y="32" width="32" height="32" rx="16" transform="rotate(-90 0.5 32)" fill="#80B4FF"/>
-                                <rect x="0.5" y="32" width="32" height="32" rx="16" transform="rotate(-90 0.5 32)" fill="black" fill-opacity="0.35"/>
-                                <path d="M11.1667 13.3337L16.5001 18.667L21.8334 13.3337" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                              </svg>
-                        </button>
-                    </h2>
-                    <div id="question-collapse-body-{{$i}}" class="hidden" aria-labelledby="question-collapse-heading-{{$i}}">
-                        <div class="tw-px-20px tw-pb-20px tw-bg-blue1 tw-pt-12px">
-                            <p class="tw-text-gray3 tw-text-base tw-leading-24px">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+            <div id="question-collapse" class="tw-mt-50px tw-flex tw-flex-col tw-gap-30px" data-accordion="collapse">
+                @for ($i = 0; $i < 4; $i++)
+                    <div class="tw-overflow-hidden tw-rounded-[5px]">
+                        <h2 id="question-collapse-heading-{{ $i }}">
+                            <button type="button"
+                                class="tw-flex tw-w-full tw-items-center tw-bg-blue1 tw-p-20px tw-text-gray2"
+                                data-accordion-target="#question-collapse-body-{{ $i }}" aria-expanded="true"
+                                aria-controls="question-collapse-body-{{ $i }}">
+                                <span>What is Flowbite?</span>
+                                <svg data-accordion-icon class="tw-ml-auto tw-h-32px tw-w-32px tw-shrink-0"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="33" height="32"
+                                    viewBox="0 0 33 32" fill="none">
+                                    <rect x="0.5" y="32" width="32" height="32" rx="16"
+                                        transform="rotate(-90 0.5 32)" fill="#80B4FF" />
+                                    <rect x="0.5" y="32" width="32" height="32" rx="16"
+                                        transform="rotate(-90 0.5 32)" fill="black" fill-opacity="0.35" />
+                                    <path d="M11.1667 13.3337L16.5001 18.667L21.8334 13.3337" stroke="white"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </h2>
+                        <div id="question-collapse-body-{{ $i }}" class="hidden"
+                            aria-labelledby="question-collapse-heading-{{ $i }}">
+                            <div class="tw-bg-blue1 tw-px-20px tw-pb-20px tw-pt-12px">
+                                <p class="tw-text-base tw-leading-24px tw-text-gray3">Lorem ipsum dolor sit amet,
+                                    consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                                    dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                                    exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                                    Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                                    consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et
+                                    iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore
+                                    te feugait nulla facilisi.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
                 @endfor
             </div>
         </div>

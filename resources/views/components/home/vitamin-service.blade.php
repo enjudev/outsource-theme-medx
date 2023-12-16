@@ -1,6 +1,6 @@
 <section id="vitaminService" class="tw-py-100px">
     <div class="tw-container tw-mx-auto">
-        <div class="tw-px-60px">
+        <div class="tw-px-15px lg:tw-px-60px">
             <p class="tw-flex tw-items-center tw-justify-center tw-gap-7px">
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_8_937)">
@@ -17,14 +17,14 @@
                         </clipPath>
                     </defs>
                 </svg>
-                <span class="tw-leading-28px tw-text-xl tw-font-medium tw-uppercase tw-text-blue1">Welcome to
+                <span class="tw-text-xl tw-font-medium tw-uppercase tw-leading-28px tw-text-blue1">Welcome to
                     Medxtore</span>
             </p>
             <p
-                class="tw-leading-52px tw-mt-4px tw-text-center tw-text-48px tw-font-semibold tw-capitalize tw-text-gray2">
+                class="tw-mt-4px tw-text-center tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px tw-text-gray2">
                 Our Best Vitamin Services
             </p>
-            <div class="tw-mt-50px tw-grid tw-grid-cols-5">
+            <div class="tw-mt-50px tw-grid tw-grid-cols-1 lg:tw-grid-cols-5">
                 <div class="tw-flex tw-flex-col tw-gap-88px">
                     @for ($i = 0; $i < 2; $i++)
                         <div class="tw-text-center">
@@ -43,17 +43,17 @@
                                     fill="#FFC12B" stroke="#FFC12B" />
                             </svg>
                             <p
-                                class="tw-leading-24px tw-mt-20px tw-text-xl tw-font-semibold tw-uppercase tw-text-gray3">
+                                class="tw-mt-20px tw-text-xl tw-font-semibold tw-uppercase tw-leading-24px tw-text-gray3">
                                 good for the heart
                             </p>
-                            <p class="tw-leading-24px tw-mt-4px tw-text-base tw-font-normal tw-text-gray3">
+                            <p class="tw-mt-4px tw-text-base tw-font-normal tw-leading-24px tw-text-gray3">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                                 tincidunt ut laoreet dolore
                             </p>
                         </div>
                     @endfor
                 </div>
-                <div class="tw-col-span-3 tw-flex tw-items-center tw-justify-center">
+                <div class="hidden lg:block tw-col-span-3 tw-flex tw-items-center tw-justify-center">
                     <img src="../assets/vitamin.png" alt="" />
                 </div>
                 <div class="tw-flex tw-flex-col tw-gap-88px">
@@ -74,10 +74,10 @@
                                     fill="#FFC12B" stroke="#FFC12B" />
                             </svg>
                             <p
-                                class="tw-leading-24px tw-mt-20px tw-text-xl tw-font-semibold tw-uppercase tw-text-gray3">
+                                class="tw-mt-20px tw-text-xl tw-font-semibold tw-uppercase tw-leading-24px tw-text-gray3">
                                 good for the heart
                             </p>
-                            <p class="tw-leading-24px tw-mt-4px tw-text-base tw-font-normal tw-text-gray3">
+                            <p class="tw-mt-4px tw-text-base tw-font-normal tw-leading-24px tw-text-gray3">
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                                 tincidunt ut laoreet dolore
                             </p>

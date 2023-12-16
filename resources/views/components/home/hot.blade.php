@@ -1,5 +1,5 @@
 <section class="py-100px">
-    <div class="tw-container tw-mx-auto">
+    <div class="tw-container tw-mx-auto tw-px-15px lg:tw-px-0">
         <p class="tw-flex tw-items-center tw-gap-7px">
             <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_8_937)">
@@ -16,11 +16,11 @@
                     </clipPath>
                 </defs>
             </svg>
-            <span class="tw-leading-28px tw-text-xl tw-font-medium tw-uppercase tw-text-blue1">Our products</span>
+            <span class="tw-text-xl tw-font-medium tw-uppercase tw-leading-28px tw-text-blue1">Our products</span>
         </p>
         <div class="tw-flex tw-items-center tw-gap-8px">
             <p
-                class="tw-leading-52px tw-mt-4px tw-text-center tw-text-48px tw-font-semibold tw-capitalize tw-text-gray2">
+                class="tw-mt-4px tw-text-center tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px tw-text-gray2">
                 Family Vitamin
             </p>
             <p class="tw-h-1px tw-flex-1 tw-bg-gray4"></p>
@@ -53,8 +53,9 @@
                 </defs>
             </svg>
         </div>
-        <div class="tw-mt-50px tw-grid tw-grid-cols-4 tw-gap-30px">
-            <div class="tw-rounded-15px tw-relative tw-flex tw-flex-col tw-gap-15px tw-bg-blue1 tw-px-40px tw-py-30px">
+        <div class="tw-mt-50px tw-grid tw-grid-cols-3 tw-gap-30px lg:tw-grid-cols-4">
+            <div
+                class="tw-relative tw-hidden tw-flex-col tw-gap-15px tw-rounded-15px tw-bg-blue1 tw-px-40px tw-py-30px lg:tw-flex">
                 <div class="tw-flex tw-items-center tw-gap-8px">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
                         fill="none">
@@ -65,7 +66,7 @@
                             d="M4.06719 12.6666C3.93534 12.6661 3.80662 12.6264 3.6973 12.5527C3.58797 12.479 3.50296 12.3745 3.45301 12.2525C3.40306 12.1305 3.39042 11.9964 3.41667 11.8672C3.44293 11.738 3.50691 11.6195 3.60053 11.5266L7.12719 7.99996L3.60053 4.47329C3.53804 4.41132 3.48844 4.33758 3.4546 4.25634C3.42075 4.1751 3.40333 4.08797 3.40333 3.99996C3.40333 3.91195 3.42075 3.82481 3.4546 3.74357C3.48844 3.66233 3.53804 3.5886 3.60053 3.52663C3.72543 3.40246 3.8944 3.33276 4.07053 3.33276C4.24665 3.33276 4.41562 3.40246 4.54053 3.52663L8.54053 7.52663C8.60301 7.5886 8.65261 7.66233 8.68645 7.74357C8.7203 7.82481 8.73772 7.91195 8.73772 7.99996C8.73772 8.08797 8.7203 8.1751 8.68645 8.25634C8.65261 8.33758 8.60301 8.41132 8.54053 8.47329L4.54053 12.4733C4.47823 12.5351 4.40435 12.584 4.32313 12.6171C4.2419 12.6503 4.15493 12.6671 4.06719 12.6666Z"
                             fill="white" />
                     </svg>
-                    <p class="tw-leading-28px tw-text-xl tw-font-medium tw-capitalize tw-text-white">Baby And Infant</p>
+                    <p class="tw-text-xl tw-font-medium tw-capitalize tw-leading-28px tw-text-white">Baby And Infant</p>
                 </div>
                 <div class="tw-flex tw-items-center tw-gap-8px">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
@@ -77,7 +78,7 @@
                             d="M4.06719 12.6666C3.93534 12.6661 3.80662 12.6264 3.6973 12.5527C3.58797 12.479 3.50296 12.3745 3.45301 12.2525C3.40306 12.1305 3.39042 11.9964 3.41667 11.8672C3.44293 11.738 3.50691 11.6195 3.60053 11.5266L7.12719 7.99996L3.60053 4.47329C3.53804 4.41132 3.48844 4.33758 3.4546 4.25634C3.42075 4.1751 3.40333 4.08797 3.40333 3.99996C3.40333 3.91195 3.42075 3.82481 3.4546 3.74357C3.48844 3.66233 3.53804 3.5886 3.60053 3.52663C3.72543 3.40246 3.8944 3.33276 4.07053 3.33276C4.24665 3.33276 4.41562 3.40246 4.54053 3.52663L8.54053 7.52663C8.60301 7.5886 8.65261 7.66233 8.68645 7.74357C8.7203 7.82481 8.73772 7.91195 8.73772 7.99996C8.73772 8.08797 8.7203 8.1751 8.68645 8.25634C8.65261 8.33758 8.60301 8.41132 8.54053 8.47329L4.54053 12.4733C4.47823 12.5351 4.40435 12.584 4.32313 12.6171C4.2419 12.6503 4.15493 12.6671 4.06719 12.6666Z"
                             fill="white" />
                     </svg>
-                    <p class="tw-leading-28px tw-text-xl tw-font-medium tw-capitalize tw-text-white">Baby And Infant</p>
+                    <p class="tw-text-xl tw-font-medium tw-capitalize tw-leading-28px tw-text-white">Baby And Infant</p>
                 </div>
                 <div class="tw-flex tw-items-center tw-gap-8px">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
@@ -89,7 +90,7 @@
                             d="M4.06719 12.6666C3.93534 12.6661 3.80662 12.6264 3.6973 12.5527C3.58797 12.479 3.50296 12.3745 3.45301 12.2525C3.40306 12.1305 3.39042 11.9964 3.41667 11.8672C3.44293 11.738 3.50691 11.6195 3.60053 11.5266L7.12719 7.99996L3.60053 4.47329C3.53804 4.41132 3.48844 4.33758 3.4546 4.25634C3.42075 4.1751 3.40333 4.08797 3.40333 3.99996C3.40333 3.91195 3.42075 3.82481 3.4546 3.74357C3.48844 3.66233 3.53804 3.5886 3.60053 3.52663C3.72543 3.40246 3.8944 3.33276 4.07053 3.33276C4.24665 3.33276 4.41562 3.40246 4.54053 3.52663L8.54053 7.52663C8.60301 7.5886 8.65261 7.66233 8.68645 7.74357C8.7203 7.82481 8.73772 7.91195 8.73772 7.99996C8.73772 8.08797 8.7203 8.1751 8.68645 8.25634C8.65261 8.33758 8.60301 8.41132 8.54053 8.47329L4.54053 12.4733C4.47823 12.5351 4.40435 12.584 4.32313 12.6171C4.2419 12.6503 4.15493 12.6671 4.06719 12.6666Z"
                             fill="white" />
                     </svg>
-                    <p class="tw-leading-28px tw-text-xl tw-font-medium tw-capitalize tw-text-white">Baby And Infant</p>
+                    <p class="tw-text-xl tw-font-medium tw-capitalize tw-leading-28px tw-text-white">Baby And Infant</p>
                 </div>
                 <img src="../assets/vitamin-category.png"
                     class="tw-absolute tw-bottom-0 tw-left-0 tw-z-10 tw-object-contain" alt="" />
@@ -99,7 +100,7 @@
                     <div class="swiper-wrapper">
                         @for ($i = 0; $i < 10; $i++)
                             <div class="swiper-slide">
-                                <img class="tw-bg-gray5 tw-rounded-10px tw-w-full tw-object-contain"
+                                <img class="tw-bg-gray5 tw-w-full tw-rounded-10px tw-object-contain"
                                     src="{{ asset('assets/product-category1.png') }}" alt="" />
                                 <div class="tw-mt-20px tw-flex tw-items-center tw-justify-center tw-gap-4px">
 
@@ -109,8 +110,8 @@
                                     Transparent
                                 </p>
                                 <div class="tw-mt-4px tw-flex tw-items-center tw-justify-center tw-gap-4px">
-                                    <p class="tw-leading-24px tw-text-xl tw-font-semibold tw-text-blue1">$24.00</p>
-                                    <p class="tw-leading-24px tw-text-base tw-text-gray3 tw-line-through">$37.99</p>
+                                    <p class="tw-text-xl tw-font-semibold tw-leading-24px tw-text-blue1">$24.00</p>
+                                    <p class="tw-text-base tw-leading-24px tw-text-gray3 tw-line-through">$37.99</p>
                                 </div>
                             </div>
                         @endfor
@@ -119,11 +120,12 @@
             </div>
         </div>
     </div>
-    <div class="tw-container tw-mx-auto tw-mt-100px tw-grid tw-grid-cols-3 tw-gap-30px">
+    <div
+        class="tw-container tw-mx-auto tw-mt-100px tw-grid tw-grid-cols-1 tw-gap-30px tw-px-15px lg:tw-grid-cols-3 lg:tw-px-0">
         <div class="tw-flex tw-h-[400px] tw-flex-col tw-justify-center tw-gap-22px tw-rounded-[15px] tw-bg-cover tw-bg-center tw-p-30px"
             style="background-image: url({{ asset('assets/sale1.png') }});">
-            <p class="tw-leading-24px tw-text-yellow1 tw-text-base tw-font-bold tw-uppercase">SUPER SALE</p>
-            <p class="tw-text-blue3 tw-leading-52px tw-text-48px tw-font-semibold tw-capitalize">
+            <p class="tw-text-yellow1 tw-text-base tw-font-bold tw-uppercase tw-leading-24px">SUPER SALE</p>
+            <p class="tw-text-blue3 tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px">
                 20% All <br />
                 band CNH
             </p>
@@ -135,8 +137,8 @@
         </div>
         <div class="tw-flex tw-h-[400px] tw-flex-col tw-justify-center tw-gap-22px tw-rounded-[15px] tw-bg-cover tw-bg-center tw-p-30px"
             style="background-image: url({{ asset('assets/sale2.png') }});">
-            <p class="tw-leading-24px tw-text-yellow1 tw-text-base tw-font-bold tw-uppercase">SUPER SALE</p>
-            <p class="tw-text-blue3 tw-leading-52px tw-text-48px tw-font-semibold tw-capitalize">
+            <p class="tw-text-yellow1 tw-text-base tw-font-bold tw-uppercase tw-leading-24px">SUPER SALE</p>
+            <p class="tw-text-blue3 tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px">
                 20% All <br />
                 band CNH
             </p>
@@ -148,8 +150,8 @@
         </div>
         <div class="tw-flex tw-h-[400px] tw-flex-col tw-justify-center tw-gap-22px tw-rounded-[15px] tw-bg-cover tw-bg-center tw-p-30px"
             style="background-image: url({{ asset('assets/sale3.png') }});">
-            <p class="tw-leading-24px tw-text-yellow1 tw-text-base tw-font-bold tw-uppercase">SUPER SALE</p>
-            <p class="tw-text-blue3 tw-leading-52px tw-text-48px tw-font-semibold tw-capitalize">
+            <p class="tw-text-yellow1 tw-text-base tw-font-bold tw-uppercase tw-leading-24px">SUPER SALE</p>
+            <p class="tw-text-blue3 tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px">
                 20% All <br />
                 band CNH
             </p>
@@ -161,7 +163,7 @@
         </div>
     </div>
 
-    <div class="tw-container tw-mx-auto tw-mt-100px">
+    <div class="tw-container tw-mx-auto tw-mt-100px tw-px-15px lg:tw-px-0">
         <p class="tw-flex tw-items-center tw-gap-7px">
             <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -179,11 +181,11 @@
                     </clipPath>
                 </defs>
             </svg>
-            <span class="tw-leading-28px tw-text-xl tw-font-medium tw-uppercase tw-text-blue1">Our products</span>
+            <span class="tw-text-xl tw-font-medium tw-uppercase tw-leading-28px tw-text-blue1">Our products</span>
         </p>
         <div class="tw-flex tw-items-center tw-gap-8px">
             <p
-                class="tw-leading-52px tw-mt-4px tw-text-center tw-text-48px tw-font-semibold tw-capitalize tw-text-gray2">
+                class="tw-mt-4px tw-text-center tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px tw-text-gray2">
                 Personal Care
             </p>
             <p class="tw-h-1px tw-flex-1 tw-bg-gray4"></p>
@@ -216,8 +218,9 @@
                 </defs>
             </svg>
         </div>
-        <div class="tw-mt-50px tw-grid tw-grid-cols-4 tw-gap-30px">
-            <div class="tw-rounded-15px tw-relative tw-flex tw-flex-col tw-gap-15px tw-bg-blue1 tw-px-40px tw-py-30px">
+        <div class="tw-mt-50px tw-grid tw-grid-cols-3 tw-gap-30px lg:tw-grid-cols-4">
+            <div
+                class="tw-relative tw-hidden tw-flex-col tw-gap-15px tw-rounded-15px tw-bg-blue1 tw-px-40px tw-py-30px lg:tw-flex">
                 <div class="tw-flex tw-items-center tw-gap-8px">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
                         fill="none">
@@ -228,7 +231,7 @@
                             d="M4.06719 12.6666C3.93534 12.6661 3.80662 12.6264 3.6973 12.5527C3.58797 12.479 3.50296 12.3745 3.45301 12.2525C3.40306 12.1305 3.39042 11.9964 3.41667 11.8672C3.44293 11.738 3.50691 11.6195 3.60053 11.5266L7.12719 7.99996L3.60053 4.47329C3.53804 4.41132 3.48844 4.33758 3.4546 4.25634C3.42075 4.1751 3.40333 4.08797 3.40333 3.99996C3.40333 3.91195 3.42075 3.82481 3.4546 3.74357C3.48844 3.66233 3.53804 3.5886 3.60053 3.52663C3.72543 3.40246 3.8944 3.33276 4.07053 3.33276C4.24665 3.33276 4.41562 3.40246 4.54053 3.52663L8.54053 7.52663C8.60301 7.5886 8.65261 7.66233 8.68645 7.74357C8.7203 7.82481 8.73772 7.91195 8.73772 7.99996C8.73772 8.08797 8.7203 8.1751 8.68645 8.25634C8.65261 8.33758 8.60301 8.41132 8.54053 8.47329L4.54053 12.4733C4.47823 12.5351 4.40435 12.584 4.32313 12.6171C4.2419 12.6503 4.15493 12.6671 4.06719 12.6666Z"
                             fill="white" />
                     </svg>
-                    <p class="tw-leading-28px tw-text-xl tw-font-medium tw-capitalize tw-text-white">Baby And Infant
+                    <p class="tw-text-xl tw-font-medium tw-capitalize tw-leading-28px tw-text-white">Baby And Infant
                     </p>
                 </div>
                 <div class="tw-flex tw-items-center tw-gap-8px">
@@ -241,7 +244,7 @@
                             d="M4.06719 12.6666C3.93534 12.6661 3.80662 12.6264 3.6973 12.5527C3.58797 12.479 3.50296 12.3745 3.45301 12.2525C3.40306 12.1305 3.39042 11.9964 3.41667 11.8672C3.44293 11.738 3.50691 11.6195 3.60053 11.5266L7.12719 7.99996L3.60053 4.47329C3.53804 4.41132 3.48844 4.33758 3.4546 4.25634C3.42075 4.1751 3.40333 4.08797 3.40333 3.99996C3.40333 3.91195 3.42075 3.82481 3.4546 3.74357C3.48844 3.66233 3.53804 3.5886 3.60053 3.52663C3.72543 3.40246 3.8944 3.33276 4.07053 3.33276C4.24665 3.33276 4.41562 3.40246 4.54053 3.52663L8.54053 7.52663C8.60301 7.5886 8.65261 7.66233 8.68645 7.74357C8.7203 7.82481 8.73772 7.91195 8.73772 7.99996C8.73772 8.08797 8.7203 8.1751 8.68645 8.25634C8.65261 8.33758 8.60301 8.41132 8.54053 8.47329L4.54053 12.4733C4.47823 12.5351 4.40435 12.584 4.32313 12.6171C4.2419 12.6503 4.15493 12.6671 4.06719 12.6666Z"
                             fill="white" />
                     </svg>
-                    <p class="tw-leading-28px tw-text-xl tw-font-medium tw-capitalize tw-text-white">Baby And Infant
+                    <p class="tw-text-xl tw-font-medium tw-capitalize tw-leading-28px tw-text-white">Baby And Infant
                     </p>
                 </div>
                 <div class="tw-flex tw-items-center tw-gap-8px">
@@ -254,7 +257,7 @@
                             d="M4.06719 12.6666C3.93534 12.6661 3.80662 12.6264 3.6973 12.5527C3.58797 12.479 3.50296 12.3745 3.45301 12.2525C3.40306 12.1305 3.39042 11.9964 3.41667 11.8672C3.44293 11.738 3.50691 11.6195 3.60053 11.5266L7.12719 7.99996L3.60053 4.47329C3.53804 4.41132 3.48844 4.33758 3.4546 4.25634C3.42075 4.1751 3.40333 4.08797 3.40333 3.99996C3.40333 3.91195 3.42075 3.82481 3.4546 3.74357C3.48844 3.66233 3.53804 3.5886 3.60053 3.52663C3.72543 3.40246 3.8944 3.33276 4.07053 3.33276C4.24665 3.33276 4.41562 3.40246 4.54053 3.52663L8.54053 7.52663C8.60301 7.5886 8.65261 7.66233 8.68645 7.74357C8.7203 7.82481 8.73772 7.91195 8.73772 7.99996C8.73772 8.08797 8.7203 8.1751 8.68645 8.25634C8.65261 8.33758 8.60301 8.41132 8.54053 8.47329L4.54053 12.4733C4.47823 12.5351 4.40435 12.584 4.32313 12.6171C4.2419 12.6503 4.15493 12.6671 4.06719 12.6666Z"
                             fill="white" />
                     </svg>
-                    <p class="tw-leading-28px tw-text-xl tw-font-medium tw-capitalize tw-text-white">Baby And Infant
+                    <p class="tw-text-xl tw-font-medium tw-capitalize tw-leading-28px tw-text-white">Baby And Infant
                     </p>
                 </div>
                 <img src="../assets/vitamin-category.png"
@@ -265,7 +268,7 @@
                     <div class="swiper-wrapper">
                         @for ($i = 0; $i < 10; $i++)
                             <div class="swiper-slide">
-                                <img class="tw-bg-gray5 tw-rounded-10px tw-w-full tw-object-contain"
+                                <img class="tw-bg-gray5 tw-w-full tw-rounded-10px tw-object-contain"
                                     src="{{ asset('assets/product-category1.png') }}" alt="" />
                                 <div class="tw-mt-20px tw-flex tw-items-center tw-justify-center tw-gap-4px">
 
@@ -275,8 +278,8 @@
                                     Transparent
                                 </p>
                                 <div class="tw-mt-4px tw-flex tw-items-center tw-justify-center tw-gap-4px">
-                                    <p class="tw-leading-24px tw-text-xl tw-font-semibold tw-text-blue1">$24.00</p>
-                                    <p class="tw-leading-24px tw-text-base tw-text-gray3 tw-line-through">$37.99</p>
+                                    <p class="tw-text-xl tw-font-semibold tw-leading-24px tw-text-blue1">$24.00</p>
+                                    <p class="tw-text-base tw-leading-24px tw-text-gray3 tw-line-through">$37.99</p>
                                 </div>
                             </div>
                         @endfor
@@ -295,6 +298,23 @@
                 nextEl: ".family-vitamin-next",
                 prevEl: ".family-vitamin-prev",
             },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            }
         });
         new Swiper(".personalCare", {
             spaceBetween: 30,
@@ -303,6 +323,23 @@
                 nextEl: ".personal-care-next",
                 prevEl: ".personal-care-prev",
             },
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 2,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 30
+                }
+            }
         });
     </script>
 @endpushonce

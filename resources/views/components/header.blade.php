@@ -1,6 +1,6 @@
-<section id="header" class="tw-relative">
+<section id="headerPc" class="hidden lg:block tw-relative">
     <div
-        class="tw-rounded-15px tw-fixed tw-left-30px tw-top-30px tw-z-50 tw-h-110px tw-w-[calc(100%-60px)] tw-bg-white tw-shadow-md">
+        class="tw-fixed tw-left-30px tw-top-30px tw-z-50 tw-h-110px tw-w-[calc(100%-60px)] tw-rounded-15px tw-bg-white tw-shadow-md">
         <div class="tw-container tw-mx-auto tw-flex tw-h-full tw-items-center tw-gap-100px">
             <a href="">
                 <img src="{{ asset('assets/Logo.svg') }}" class="object-contain" alt="" />
