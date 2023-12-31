@@ -21,6 +21,10 @@ module.exports = {
       },
       spacing: spacingValues,
       fontSize: spacingValues,
+      borderRadius: spacingValues,
+      borderWidth: spacingValues,
+      letterSpacing: spacingValues,
+      lineHeight: spacingValues,
     },
   },
   plugins: [
