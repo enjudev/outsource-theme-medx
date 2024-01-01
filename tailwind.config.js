@@ -14,6 +14,7 @@ module.exports = {
     extend: {
       colors: {
         'blue1': '#80B4FF',
+        'blue2': '#405A80',
         'gray1': '#454545',
         'gray2': '#2D3F59',
         'gray3': '#727272',
@@ -23,6 +24,7 @@ module.exports = {
       fontSize: spacingValues,
       lineHeight: spacingValues,
       borderRadius: spacingValues,
+      borderWidth: spacingValues,
     },
   },
   plugins: [

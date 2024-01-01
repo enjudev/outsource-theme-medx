@@ -1,7 +1,7 @@
-<section class="tw-flex tw-h-[825px] tw-items-center tw-bg-auto tw-bg-no-repeat"
+<section class="tw-flex tw-h-auto tw-items-center tw-bg-cover tw-bg-no-repeat tw-py-30px lg:tw-py-100px"
     style="background-image: url({{ asset('assets/question-bg.png') }})">
     <div
-        class="tw-container tw-mx-auto tw-flex tw-items-center tw-justify-center tw-gap-60px tw-px-15px lg:tw-h-[625px] lg:tw-px-0">
+        class="tw-container tw-mx-auto tw-flex tw-h-full tw-items-center tw-justify-center tw-gap-60px tw-px-15px lg:tw-px-0">
         <div class="tw-hidden tw-h-full tw-w-[613px] lg:tw-block"></div>
         <div class="tw-h-full tw-flex-1">
             <div>

@@ -131,9 +131,9 @@
                     </div>
                 </div>
                 <a href=""
-                    class="tw-hover:text-blue1 tw-text-xl tw-font-medium tw-uppercase tw-text-gray1 tw-transition tw-duration-300">Brand</a>
+                    class="hover:tw-text-blue1 tw-text-xl tw-font-medium tw-uppercase tw-text-gray1 tw-transition tw-duration-300">Brand</a>
                 <a href=""
-                    class="tw-hover:text-blue1 tw-text-xl tw-font-medium tw-uppercase tw-text-gray1 tw-transition tw-duration-300">Pages</a>
+                    class="hover:tw-text-blue1 tw-text-xl tw-font-medium tw-uppercase tw-text-gray1 tw-transition tw-duration-300">Pages</a>
             </div>
 
             <div class="tw-flex tw-items-center tw-gap-14px">
