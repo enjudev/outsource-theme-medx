@@ -18,7 +18,8 @@ module.exports = {
         'gray1': '#454545',
         'gray2': '#2D3F59',
         'gray3': '#727272',
-        'gray4': '#D6D6D6'
+        'gray4': '#D6D6D6',
+        'gray5': "#B7B7B7"
       },
       spacing: spacingValues,
       fontSize: spacingValues,

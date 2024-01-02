@@ -45,16 +45,25 @@
             </div>
         </div>
     </div>
-    <div class="tw-mt-20px tw-flex tw-items-center tw-justify-center tw-gap-4px">
-
-    </div>
-    <p class="tw-mt-4px tw-text-center tw-text-base tw-font-medium tw-text-gray3">Eucerin
-        Sun
-        Transparent
-    </p>
-    <div class="tw-mt-4px tw-flex tw-items-center tw-justify-center tw-gap-4px">
-        <p class="tw-text-xl tw-font-semibold tw-leading-24px tw-text-blue1">$24.00</p>
-        <p class="tw-text-base tw-leading-24px tw-text-gray3 tw-line-through">$37.99</p>
+    <div class="tw-py-16px">
+        <div class="tw-flex tw-items-center tw-justify-center tw-gap-4px">
+            @for ($i = 0; $i < 5; $i++)
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13"
+                    fill="none">
+                    <path
+                        d="M6.08155 1.13274C6.42863 0.326777 7.57137 0.326779 7.91845 1.13274L8.92819 3.47746C9.07296 3.81363 9.38984 4.04385 9.7543 4.07765L12.2963 4.31342C13.17 4.39446 13.5232 5.48127 12.8639 6.06042L10.946 7.74529C10.671 7.98686 10.55 8.35937 10.6304 8.71644L11.1917 11.2069C11.3847 12.0629 10.4602 12.7346 9.70564 12.2866L7.51056 10.9832C7.19584 10.7963 6.80416 10.7963 6.48944 10.9832L4.29436 12.2866C3.53983 12.7346 2.61533 12.0629 2.80827 11.2069L3.36956 8.71644C3.45004 8.35937 3.329 7.98686 3.05402 7.74529L1.13609 6.06042C0.476825 5.48127 0.829953 4.39446 1.70372 4.31342L4.24571 4.07765C4.61016 4.04385 4.92704 3.81363 5.07181 3.47746L6.08155 1.13274Z"
+                        fill="#FFCC00" />
+                </svg>
+            @endfor
+        </div>
+        <p class="tw-mt-4px tw-text-center tw-text-base tw-font-medium tw-text-gray3">Eucerin
+            Sun
+            Transparent
+        </p>
+        <div class="tw-mt-4px tw-flex tw-items-center tw-justify-center tw-gap-4px">
+            <p class="tw-text-xl tw-font-semibold tw-leading-24px tw-text-blue1">$24.00</p>
+            <p class="tw-text-base tw-leading-24px tw-text-gray3 tw-line-through">$37.99</p>
+        </div>
     </div>
     <p
         class="tw-absolute tw-right-15px tw-top-15px tw-z-10 tw-rounded-8px tw-bg-blue1 tw-p-8px tw-text-12px tw-font-semibold tw-uppercase tw-text-white">

@@ -72,6 +72,23 @@
                     <x-global.card />
                 @endfor
             </div>
+            <div class="tw-mt-30px tw-flex tw-items-center tw-justify-center tw-gap-12px">
+                <a href=""
+                    class="hover:text-white tw-flex tw-h-46px tw-w-46px tw-items-center tw-justify-center tw-rounded-full tw-border-1px tw-border-gray5 tw-bg-blue1 tw-text-white">1</a>
+                <a href=""
+                    class="hover:text-white tw-flex tw-h-46px tw-w-46px tw-items-center tw-justify-center tw-rounded-full tw-border-1px tw-border-gray5 tw-bg-white tw-transition hover:tw-bg-blue1">2</a>
+                <a href=""
+                    class="hover:text-white tw-flex tw-h-46px tw-w-46px tw-items-center tw-justify-center tw-rounded-full tw-border-1px tw-border-gray5 tw-bg-white tw-transition hover:tw-bg-blue1">3</a>
+                <a href=""
+                    class="hover:text-white tw-flex tw-h-46px tw-w-46px tw-items-center tw-justify-center tw-rounded-full tw-border-1px tw-border-gray5 tw-bg-white tw-transition hover:tw-bg-blue1">4</a>
+                <a href=""
+                    class="hover:text-white tw-flex tw-h-46px tw-w-46px tw-items-center tw-justify-center tw-rounded-full tw-border-1px tw-border-gray5 tw-bg-white tw-transition hover:tw-bg-blue1">5</a>
+                <a href=""
+                    class="hover:text-white tw-flex tw-h-46px tw-w-46px tw-items-center tw-justify-center tw-rounded-full tw-border-1px tw-border-gray5 tw-bg-white tw-transition hover:tw-bg-blue1">6</a>
+            </div>
+        </div>
+        <div>
+            <div class="tw-rounded-15px tw-bg-blue1/40 tw-p-30px"></div>
         </div>
     </div>
 </section>
