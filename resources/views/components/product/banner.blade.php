@@ -6,7 +6,9 @@
             <div class="tw-mt-4px tw-flex tw-items-center tw-gap-4px">
                 <a href="#" class="tw-inline-block tw-text-base tw-text-gray3">Home</a>
                 <p>/</p>
-                <a href="#" class="tw-inline-block tw-text-base tw-text-blue1">Shop</a>
+                <a href="#" class="tw-inline-block tw-text-base tw-text-gray3">Shop</a>
+                <p>/</p>
+                <a href="#" class="tw-inline-block tw-text-base tw-text-blue1">Loratadine Ratiopharm Tablet</a>
             </div>
         </div>
     </div>

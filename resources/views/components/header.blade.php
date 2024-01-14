@@ -1,3 +1,10 @@
+<section id="headerMobile" class="tw-block lg:tw-hidden">
+    <div class="tw-fixed tw-left-0 tw-top-0 tw-z-[9999] tw-flex tw-w-full tw-bg-white tw-px-15px tw-py-15px">
+        <a href="" class="tw-h-auto tw-w-150px">
+            <img src="{{ asset('assets/Logo.svg') }}" class="object-contain" alt="" />
+        </a>
+    </div>
+</section>
 <section id="headerPc" class="hidden lg:block tw-relative">
     <div
         class="tw-fixed tw-left-30px tw-top-30px tw-z-50 tw-h-110px tw-w-[calc(100%-60px)] tw-rounded-15px tw-bg-white tw-shadow-md">
@@ -131,9 +138,9 @@
                     </div>
                 </div>
                 <a href=""
-                    class="hover:tw-text-blue1 tw-text-xl tw-font-medium tw-uppercase tw-text-gray1 tw-transition tw-duration-300">Brand</a>
+                    class="tw-text-xl tw-font-medium tw-uppercase tw-text-gray1 tw-transition tw-duration-300 hover:tw-text-blue1">Brand</a>
                 <a href=""
-                    class="hover:tw-text-blue1 tw-text-xl tw-font-medium tw-uppercase tw-text-gray1 tw-transition tw-duration-300">Pages</a>
+                    class="tw-text-xl tw-font-medium tw-uppercase tw-text-gray1 tw-transition tw-duration-300 hover:tw-text-blue1">Pages</a>
             </div>
 
             <div class="tw-flex tw-items-center tw-gap-14px">
