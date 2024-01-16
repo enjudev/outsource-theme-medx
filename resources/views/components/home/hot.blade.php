@@ -1,4 +1,4 @@
-<section class="py-100px">
+<section class="">
     <div class="tw-container tw-mx-auto tw-px-15px lg:tw-px-0">
         <p class="tw-flex tw-items-center tw-gap-7px">
             <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -20,7 +20,7 @@
         </p>
         <div class="tw-flex tw-items-center tw-gap-8px">
             <p
-                class="tw-mt-4px tw-text-center tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px tw-text-gray2">
+                class="tw-mt-4px tw-text-center tw-text-32px tw-font-semibold tw-capitalize tw-text-gray2 lg:tw-text-48px lg:tw-leading-52px">
                 Family Vitamin
             </p>
             <p class="tw-h-1px tw-flex-1 tw-bg-gray4"></p>
@@ -100,19 +100,7 @@
                     <div class="swiper-wrapper">
                         @for ($i = 0; $i < 10; $i++)
                             <div class="swiper-slide">
-                                <img class="tw-bg-gray5 tw-w-full tw-rounded-10px tw-object-contain"
-                                    src="{{ asset('assets/product-category1.png') }}" alt="" />
-                                <div class="tw-mt-20px tw-flex tw-items-center tw-justify-center tw-gap-4px">
-
-                                </div>
-                                <p class="tw-mt-4px tw-text-center tw-text-base tw-font-medium tw-text-gray3">Eucerin
-                                    Sun
-                                    Transparent
-                                </p>
-                                <div class="tw-mt-4px tw-flex tw-items-center tw-justify-center tw-gap-4px">
-                                    <p class="tw-text-xl tw-font-semibold tw-leading-24px tw-text-blue1">$24.00</p>
-                                    <p class="tw-text-base tw-leading-24px tw-text-gray3 tw-line-through">$37.99</p>
-                                </div>
+                                <x-global.card />
                             </div>
                         @endfor
                     </div>
@@ -121,11 +109,11 @@
         </div>
     </div>
     <div
-        class="tw-container tw-mx-auto tw-mt-100px tw-grid tw-grid-cols-1 tw-gap-30px tw-px-15px lg:tw-grid-cols-3 lg:tw-px-0">
+        class="tw-container tw-mx-auto tw-mt-30px tw-grid tw-grid-cols-1 tw-gap-30px tw-px-15px lg:tw-mt-100px lg:tw-grid-cols-3 lg:tw-px-0">
         <div class="tw-flex tw-h-[400px] tw-flex-col tw-justify-center tw-gap-22px tw-rounded-[15px] tw-bg-cover tw-bg-center tw-p-30px"
             style="background-image: url({{ asset('assets/sale1.png') }});">
             <p class="tw-text-yellow1 tw-text-base tw-font-bold tw-uppercase tw-leading-24px">SUPER SALE</p>
-            <p class="tw-text-blue3 tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px">
+            <p class="tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px tw-text-blue3">
                 20% All <br />
                 band CNH
             </p>
@@ -138,7 +126,7 @@
         <div class="tw-flex tw-h-[400px] tw-flex-col tw-justify-center tw-gap-22px tw-rounded-[15px] tw-bg-cover tw-bg-center tw-p-30px"
             style="background-image: url({{ asset('assets/sale2.png') }});">
             <p class="tw-text-yellow1 tw-text-base tw-font-bold tw-uppercase tw-leading-24px">SUPER SALE</p>
-            <p class="tw-text-blue3 tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px">
+            <p class="tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px tw-text-blue3">
                 20% All <br />
                 band CNH
             </p>
@@ -151,7 +139,7 @@
         <div class="tw-flex tw-h-[400px] tw-flex-col tw-justify-center tw-gap-22px tw-rounded-[15px] tw-bg-cover tw-bg-center tw-p-30px"
             style="background-image: url({{ asset('assets/sale3.png') }});">
             <p class="tw-text-yellow1 tw-text-base tw-font-bold tw-uppercase tw-leading-24px">SUPER SALE</p>
-            <p class="tw-text-blue3 tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px">
+            <p class="tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px tw-text-blue3">
                 20% All <br />
                 band CNH
             </p>
@@ -185,7 +173,7 @@
         </p>
         <div class="tw-flex tw-items-center tw-gap-8px">
             <p
-                class="tw-mt-4px tw-text-center tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px tw-text-gray2">
+                class="tw-mt-4px tw-text-center tw-text-32px tw-font-semibold tw-capitalize tw-text-gray2 lg:tw-text-48px lg:tw-leading-52px">
                 Personal Care
             </p>
             <p class="tw-h-1px tw-flex-1 tw-bg-gray4"></p>
@@ -268,19 +256,7 @@
                     <div class="swiper-wrapper">
                         @for ($i = 0; $i < 10; $i++)
                             <div class="swiper-slide">
-                                <img class="tw-bg-gray5 tw-w-full tw-rounded-10px tw-object-contain"
-                                    src="{{ asset('assets/product-category1.png') }}" alt="" />
-                                <div class="tw-mt-20px tw-flex tw-items-center tw-justify-center tw-gap-4px">
-
-                                </div>
-                                <p class="tw-mt-4px tw-text-center tw-text-base tw-font-medium tw-text-gray3">Eucerin
-                                    Sun
-                                    Transparent
-                                </p>
-                                <div class="tw-mt-4px tw-flex tw-items-center tw-justify-center tw-gap-4px">
-                                    <p class="tw-text-xl tw-font-semibold tw-leading-24px tw-text-blue1">$24.00</p>
-                                    <p class="tw-text-base tw-leading-24px tw-text-gray3 tw-line-through">$37.99</p>
-                                </div>
+                                <x-global.card />
                             </div>
                         @endfor
                     </div>

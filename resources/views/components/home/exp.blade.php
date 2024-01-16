@@ -1,4 +1,4 @@
-<section class="tw-py-100px">
+<section class="tw-py-30px lg:tw-py-100px">
     <div
         class="tw-sap tw-container tw-relative tw-mx-auto tw-flex tw-flex-col tw-gap-44px tw-px-15px lg:tw-flex-row lg:tw-px-0">
         <div class="lg:tw-w-[45%]">
@@ -22,7 +22,7 @@
                     our retail outlets</span>
             </div>
             <p
-                class="tw-mt-4px tw-text-start tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px tw-text-gray2">
+                class="tw-mt-4px tw-text-start tw-text-32px tw-font-semibold tw-capitalize tw-leading-37px tw-text-gray2 lg:tw-text-48px lg:tw-leading-52px">
                 Professional Service & Care
                 In A Pleasant Ambience
             </p>

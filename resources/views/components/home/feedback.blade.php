@@ -1,7 +1,7 @@
 <section id="feedBack" class="tw-h-[830px] tw-bg-cover tw-bg-center"
     style="background-image: url('../assets/feedback-bg.png');">
     <div
-        class="tw-container tw-mx-auto tw-flex tw-h-full tw-flex-col tw-gap-50px tw-px-15px tw-pb-50px tw-pt-100px lg:tw-px-0">
+        class="tw-container tw-mx-auto tw-flex tw-h-full tw-flex-col tw-gap-50px tw-px-15px tw-py-30px lg:tw-px-0 lg:tw-pb-50px lg:tw-pt-100px">
         <div>
             <p class="tw-flex tw-items-center tw-justify-center tw-gap-7px">
                 <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">

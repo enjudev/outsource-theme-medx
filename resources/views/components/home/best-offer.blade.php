@@ -1,6 +1,6 @@
 <section id="bestOffer" class="tw-min-h-[947px] tw-bg-cover tw-bg-center"
     style="background-image: url('../assets/best_offer_bg.png');">
-    <div class="tw-container tw-mx-auto tw-py-100px">
+    <div class="tw-container tw-mx-auto tw-py-30px lg:tw-py-100px">
         <p class="tw-flex tw-items-center tw-justify-center tw-gap-7px">
             <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_8_937)">
@@ -19,7 +19,8 @@
             </svg>
             <span class="tw-text-xl tw-font-medium tw-uppercase tw-leading-28px tw-text-blue1">Best offers</span>
         </p>
-        <p class="tw-mt-4px tw-text-center tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px tw-text-gray2">
+        <p
+            class="tw-mt-4px tw-text-center tw-text-32px tw-font-semibold tw-capitalize tw-text-gray2 lg:tw-text-48px lg:tw-leading-52px">
             Best Vitamin Offer For Our Customers
         </p>
         <div class="tw-mt-40px tw-flex tw-gap-78px">
@@ -43,50 +44,59 @@
                     <div class="swiper-wrapper">
                         @for ($i = 0; $i < 5; $i++)
                             <div class="swiper-slide">
-                                <div class="lg:tw-0 tw-flex tw-flex-col tw-gap-78px tw-px-15px lg:tw-flex-row">
+                                <div
+                                    class="lg:tw-0 tw-flex tw-flex-col tw-gap-30px tw-px-15px lg:tw-flex-row lg:tw-gap-78px">
                                     <img class="tw-full tw-object-cover lg:tw-w-[45%]" src="../assets/big_offer.png"
                                         alt="" />
-                                    <div class="tw-flex tw-flex-1">
+                                    <div class="tw-flex tw-flex-1 tw-flex-col lg:tw-flex-row">
                                         <div
-                                            class="tw-z-10 -tw-mr-50px tw-mb-48px tw-mt-48px tw-flex tw-w-100px tw-flex-col tw-items-center tw-justify-center tw-gap-20px tw-rounded-full tw-bg-blue1">
+                                            class="tw-z-10 tw-mb-20px tw-mt-48px tw-flex tw-flex-row tw-items-center tw-justify-between tw-gap-20px tw-rounded-12px tw-bg-blue1 tw-px-20px tw-py-4px lg:-tw-mr-50px lg:tw-mb-48px lg:tw-w-100px lg:tw-flex-col lg:tw-justify-center lg:tw-rounded-full lg:tw-px-0 lg:tw-py-0">
                                             <div>
-                                                <p class="tw-text-34px tw-font-semibold tw-leading-40px tw-text-white">
+                                                <p
+                                                    class="tw-text-28px tw-font-semibold tw-leading-40px tw-text-white lg:tw-text-34px">
                                                     12
                                                 </p>
-                                                <p class="tw-text-xl tw-font-semibold tw-leading-28px tw-text-white">
+                                                <p
+                                                    class="text-18px tw-font-semibold tw-leading-28px tw-text-white lg:tw-text-xl">
                                                     Days
                                                 </p>
                                             </div>
-                                            <p class="tw-h-1px tw-w-[40%] tw-bg-white"></p>
+                                            <p class="tw-hidden tw-h-1px tw-w-[40%] tw-bg-white lg:tw-block"></p>
                                             <div>
-                                                <p class="tw-text-34px tw-font-semibold tw-leading-40px tw-text-white">
+                                                <p
+                                                    class="tw-text-28px tw-font-semibold tw-leading-40px tw-text-white lg:tw-text-34px">
                                                     08
                                                 </p>
-                                                <p class="tw-text-xl tw-font-semibold tw-leading-28px tw-text-white">
+                                                <p
+                                                    class="text-18px tw-font-semibold tw-leading-28px tw-text-white lg:tw-text-xl">
                                                     Hours
                                                 </p>
                                             </div>
-                                            <p class="tw-h-1px tw-w-[40%] tw-bg-white"></p>
+                                            <p class="tw-hidden tw-h-1px tw-w-[40%] tw-bg-white lg:tw-block"></p>
                                             <div>
-                                                <p class="tw-text-34px tw-font-semibold tw-leading-40px tw-text-white">
+                                                <p
+                                                    class="tw-text-28px tw-font-semibold tw-leading-40px tw-text-white lg:tw-text-34px">
                                                     54
                                                 </p>
-                                                <p class="tw-text-xl tw-font-semibold tw-leading-28px tw-text-white">
+                                                <p
+                                                    class="text-18px tw-font-semibold tw-leading-28px tw-text-white lg:tw-text-xl">
                                                     Mins
                                                 </p>
                                             </div>
-                                            <p class="tw-h-1px tw-w-[40%] tw-bg-white"></p>
+                                            <p class="tw-hidden tw-h-1px tw-w-[40%] tw-bg-white lg:tw-block"></p>
                                             <div>
-                                                <p class="tw-text-34px tw-font-semibold tw-leading-40px tw-text-white">
+                                                <p
+                                                    class="tw-text-28px tw-font-semibold tw-leading-40px tw-text-white lg:tw-text-34px">
                                                     57
                                                 </p>
-                                                <p class="tw-text-xl tw-font-semibold tw-leading-28px tw-text-white">
+                                                <p
+                                                    class="text-18px tw-font-semibold tw-leading-28px tw-text-white lg:tw-text-xl">
                                                     Sec
                                                 </p>
                                             </div>
                                         </div>
                                         <div
-                                            class="tw-flex-1 tw-rounded-15px tw-bg-white tw-py-50px tw-pl-74px tw-pr-30px tw-drop-shadow-lg">
+                                            class="tw-flex-1 tw-rounded-15px tw-bg-white tw-p-16px tw-drop-shadow-lg lg:tw-py-50px lg:tw-pl-74px lg:tw-pr-30px">
                                             <p class="tw-text-34px tw-font-semibold tw-leading-40px tw-text-gray2">
                                                 Vitamin C 100 vegetarian
                                             </p>

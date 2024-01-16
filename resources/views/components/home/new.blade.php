@@ -1,4 +1,4 @@
-<section id="new" class="tw-bg-cover tw-bg-no-repeat tw-py-100px"
+<section id="new" class="tw-bg-cover tw-bg-no-repeat tw-py-50px lg:tw-py-100px"
     style="background-image:url({{ asset('assets/new-bg.png') }})">
     <div class="tw-container tw-mx-auto tw-grid tw-grid-cols-1 tw-gap-30px tw-px-15px lg:tw-grid-cols-4 lg:tw-px-0">
         <div>
@@ -65,7 +65,7 @@
                 <div class="swiper-wrapper">
                     @for ($i = 0; $i < 10; $i++)
                         <a href="" class="swiper-slide tw-overflow-hidden tw-rounded-[15px]">
-                            <img class="tw-bg-gray5 tw-w-full tw-rounded-10px tw-object-contain"
+                            <img class="tw-w-full tw-rounded-10px tw-bg-gray5 tw-object-contain"
                                 src="{{ asset('assets/new-item.png') }}" alt="" />
                             <div class="tw-bg-white tw-p-20px">
                                 <div class="tw-flex tw-items-center tw-gap-29px">

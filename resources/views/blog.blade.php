@@ -11,9 +11,8 @@
 @endsection
 @section('content')
     <div class="tw-flex tw-flex-col tw-pb-100px lg:tw-gap-100px">
-        <x-product.banner />
-        <x-product.showcase />
-        <x-product.related />
+        <x-blog.banner />
+        <x-blog.showcase />
     </div>
 @endsection
 @section('footer')

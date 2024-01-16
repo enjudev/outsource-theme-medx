@@ -1,4 +1,4 @@
-<section id="vitaminService" class="tw-py-100px">
+<section id="vitaminService" class="tw-py-30px lg:tw-py-100px">
     <div class="tw-container tw-mx-auto">
         <div class="tw-px-15px lg:tw-px-60px">
             <p class="tw-flex tw-items-center tw-justify-center tw-gap-7px">
@@ -21,7 +21,7 @@
                     Medxtore</span>
             </p>
             <p
-                class="tw-mt-4px tw-text-center tw-text-48px tw-font-semibold tw-capitalize tw-leading-52px tw-text-gray2">
+                class="tw-mt-4px tw-text-center tw-text-32px tw-font-semibold tw-capitalize tw-text-gray2 lg:tw-text-48px lg:tw-leading-52px">
                 Our Best Vitamin Services
             </p>
             <div class="tw-mt-50px tw-grid tw-grid-cols-1 lg:tw-grid-cols-5">

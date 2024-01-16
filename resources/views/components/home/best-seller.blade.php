@@ -1,5 +1,5 @@
 <section id="best-seller"
-    class="tw-my-100px tw-flex tw-h-[300px] tw-items-center tw-bg-cover tw-bg-center tw-bg-no-repeat tw-py-20px lg:tw-h-[550px]"
+    class="tw-my-30px tw-flex tw-h-[300px] tw-items-center tw-bg-cover tw-bg-center tw-bg-no-repeat tw-py-20px lg:tw-my-100px lg:tw-h-[550px]"
     style="background-image: url({{ asset('assets/best-seller-bg.png') }})">
     <div class="tw-container tw-mx-auto tw-flex tw-items-center tw-px-15px lg:tw-px-0">
         <div class="tw-flex tw-w-full tw-flex-col tw-gap-20px lg:tw-w-1/2">
@@ -16,7 +16,7 @@
         <img class="tw-ml-auto tw-hidden lg:tw-block" src="{{ asset('assets/best-seller-item.png') }}" alt="">
     </div>
 </section>
-<section id="best-seller-product" class="tw-my-100px">
+<section id="best-seller-product" class="tw-my-30px lg:tw-my-100px">
     <div class="tw-container tw-mx-auto tw-px-15px lg:tw-px-0">
         <p class="tw-flex tw-items-center tw-gap-7px">
             <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -75,19 +75,7 @@
             <div class="swiper-wrapper">
                 @for ($i = 0; $i < 10; $i++)
                     <div class="swiper-slide">
-                        <img class="tw-bg-gray5 tw-w-full tw-rounded-10px tw-object-contain"
-                            src="{{ asset('assets/product-category1.png') }}" alt="" />
-                        <div class="tw-mt-20px tw-flex tw-items-center tw-justify-center tw-gap-4px">
-
-                        </div>
-                        <p class="tw-mt-4px tw-text-center tw-text-base tw-font-medium tw-text-gray3">Eucerin
-                            Sun
-                            Transparent
-                        </p>
-                        <div class="tw-mt-4px tw-flex tw-items-center tw-justify-center tw-gap-4px">
-                            <p class="tw-text-xl tw-font-semibold tw-leading-24px tw-text-blue1">$24.00</p>
-                            <p class="tw-text-base tw-leading-24px tw-text-gray3 tw-line-through">$37.99</p>
-                        </div>
+                        <x-global.card />
                     </div>
                 @endfor
             </div>

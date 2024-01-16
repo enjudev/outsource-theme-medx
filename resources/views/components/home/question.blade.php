@@ -1,4 +1,4 @@
-<section class="tw-flex tw-h-auto tw-items-center tw-bg-cover tw-bg-no-repeat tw-py-30px lg:tw-py-100px"
+<section class="tw-flex tw-h-auto tw-items-center tw-bg-auto tw-bg-no-repeat tw-py-30px lg:tw-bg-cover lg:tw-py-100px"
     style="background-image: url({{ asset('assets/question-bg.png') }})">
     <div
         class="tw-container tw-mx-auto tw-flex tw-h-full tw-items-center tw-justify-center tw-gap-60px tw-px-15px lg:tw-px-0">

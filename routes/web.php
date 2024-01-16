@@ -22,3 +22,9 @@ Route::get('/category', function () {
 Route::get('/product', function () {
     return view('product');
 });
+Route::get('/blog', function () {
+    return view('blog');
+});
+Route::get('/blog-detail', function () {
+    return view('blog-detail');
+});
